@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, rgba(0, 120, 212, 0.8), rgba(140, 0, 140, 0.8)); /* Fondo azul y morado translúcido */
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #141414;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #005ea1; /* Color azul oscuro */
+}
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: #0078d4; /* Color azul claro */
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centrar la barra de búsqueda */
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 200px; /* Ancho de la barra de búsqueda */
+    margin-left: 15px; /* Espaciado entre menú y barra de búsqueda */
+}
+
+/* Auth Buttons */
+.auth-buttons {
+    margin-left: auto;
+}
+
+.login-btn,
+.register-btn {
+    background-color: #0078d4; /* Color azul */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #005ea1; /* Color azul más oscuro */
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-section {
+    flex: 3;
+    padding: 10px;
+}
+
+h2 {
+    color: #ffffff; /* Color blanco */
+}
+
+.live-streams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacio entre las transmisiones */
+}
+
+.stream-box {
+    background-color: #373737;
+    border-radius: 10px;
+    width: 30%; /* Ajustado para 3 columnas */
+    margin: 10px 0; /* Espacio entre las transmisiones */
+    padding: 10px;
+    text-align: left;
+}
+
+.thumbnail {
+    height: 180px; /* Tamaño ajustado para un aspecto más cuadrado */
+    background-color: #444;
+    border-radius: 8px;
+}
+
+.stream-info {
+    margin-top: 10px;
+}
+
+.watch-btn {
+    background-color: #0078d4; /* Color azul */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.watch-btn:hover {
+    background-color: #005ea1; /* Color azul más oscuro */
+}
+
+/* Right Sidebar Styles */
+.right-sidebar {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.categories-section,
+.tournaments-section {
+    background-color: rgba(55, 55, 55, 0.9); /* Fondo con opacidad */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Ajusta las categorías a la izquierda */
+}
+
+.category-box,
+.tournament-box {
+    background-color: #373737;
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-box:hover,
+.tournament-box:hover {
+    background-color: #0078d4; /* Color azul */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-column {
+    margin: 0 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #0078d4; /* Color azul */
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayArena - Plataforma de Transmisiones en Vivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>PlayArena</h1>
+            </div>
+            <nav class="main-menu">
+                <a href="#">Inicio</a>
+                <a href="#">Categorías</a>
+                <a href="#">Explorar</a>
+                <a href="#">Sobre nosotros</a>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar..." class="search-input">
+            </div>
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Iniciar sesión</a>
+                <a href="#" class="register-btn">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section (Current Live Streams) -->
+        <section class="hero-section">
+            <h2>Transmisiones en Vivo</h2>
+            <div class="live-streams">
+                <!-- Streamers List -->
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>ProGamer123</p>
+                        <span>Valorant</span>
+                        <span>101 espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>StrategyQueen</p>
+                        <span>League of Legends</span>
+                        <span>120k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>SpeedRunnerX</p>
+                        <span>Counter Strike 2</span>
+                        <span>50k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <!-- Nuevas transmisiones agregadas -->
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>AlphaWolf</p>
+                        <span>Fortnite</span>
+                        <span>250k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>DarkKnight</p>
+                        <span>Valorant</span>
+                        <span>180k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>MagicGamer</p>
+                        <span>Fall Guys</span>
+                        <span>90k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>QuickSniper</p>
+                        <span>Apex Legends</span>
+                        <span>120k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>GamerGirl</p>
+                        <span>Among Us</span>
+                        <span>200k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>Nightmare</p>
+                        <span>Dead by Daylight</span>
+                        <span>75k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <!-- Más transmisiones añadidas -->
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>GamerDad</p>
+                        <span>Destiny 2</span>
+                        <span>40k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>ProSniper</p>
+                        <span>Call of Duty</span>
+                        <span>160k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>ElRey</p>
+                        <span>FIFA 23</span>
+                        <span>300k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+
+                <div class="stream-box">
+                    <div class="thumbnail"></div>
+                    <div class="stream-info">
+                        <p>ChillMaster</p>
+                        <span>Genshin Impact</span>
+                        <span>50k espectadores</span>
+                        <button class="watch-btn">Ver en vivo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories and Tournaments Section -->
+        <div class="right-sidebar">
+            <!-- Categories Section -->
+            <section class="categories-section">
+                <h2>Categorías Populares</h2>
+                <div class="categories-grid">
+                    <button class="category-box" onclick="window.location.href='#'">
+                        <div class="category-thumbnail"></div>
+                        <p>Fortnite</p>
+                    </button>
+                    <button class="category-box" onclick="window.location.href='#'">
+                        <div class="category-thumbnail"></div>
+                        <p>Valorant</p>
+                    </button>
+                    <button class="category-box" onclick="window.location.href='#'">
+                        <div class="category-thumbnail"></div>
+                        <p>League of Legends</p>
+                    </button>
+                    <button class="category-box" onclick="window.location.href='#'">
+                        <div class="category-thumbnail"></div>
+                        <p>Counter Strike 2</p>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Tournaments and Leagues Section -->
+            <section class="tournaments-section">
+                <h2>Torneos y Ligas Competitivas</h2>
+                <button class="tournament-box" onclick="window.location.href='#'">
+                    <h3>Valorant Championship</h3>
+                    <p>Final Mundial - 200k espectadores</p>
+                </button>
+                <button class="tournament-box" onclick="window.location.href='#'">
+                    <h3>Fortnite World Cup</h3>
+                    <p>50 equipos restantes - 1M espectadores</p>
+                </button>
+                <button class="tournament-box" onclick="window.location.href='#'">
+                    <h3>League of Legends: Worlds</h3>
+                    <p>Partida final - 500k espectadores</p>
+                </button>
+            </section>
+        </div>
+    </main>
+
+    <!-- Horizontal Footer Section -->
+    <footer>
+        <div class="footer-horizontal">
+            <div class="footer-column">
+                <h4>Acerca de PlayArena</h4>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Recursos</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Desarrolladores</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Comunidad</h4>
+                <ul>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Streamers</a></li>
+                    <li><a href="#">Socios</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
